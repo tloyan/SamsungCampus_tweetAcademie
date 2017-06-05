@@ -1,0 +1,110 @@
+#tchatAction {
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#tchat {
+    position: fixed;
+    bottom: 30px;
+    height: 30px;
+    width: 100%;
+}
+
+#tchatRetract {
+    background-color: grey;
+    width: 550px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+}
+
+#left {
+    border: 1px solid black;
+    width: 275px;
+    height: 305px;
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+}
+
+#right {
+border: 1px solid black;
+    width: 275px;
+    position: fixed;
+    bottom: 30px;
+    right: 275px;
+}
+
+#right #form {
+
+cursor: pointer;
+}
+
+#message {
+    overflow-y:scroll;
+}
+
+#message>div {
+    border: 1px solid black;
+    width:175px;
+}
+
+#message>.expe {
+    float: right;
+}
+
+#message>.expe>p:first-of-type {
+    font-size:15px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border-radius: 3px;
+    float: right;
+    border: 1px solid black;
+}
+
+#message>.expe>p:first-of-type+p {
+    font-size:8px;
+    float: left;
+}
+
+#message>.expe>p:last-of-type {
+    font-size:15px;
+    clear:both; 
+}
+
+#message>.dest {
+    float: left;
+}
+
+#message>.dest>p:first-of-type {
+    font-size:8px;
+    float: right;
+}
+
+#message>.dest>p:first-of-type+p {
+    font-size:15px;
+    float: left;
+}
+
+#message>.dest>p:last-of-type {
+    font-size:15px;
+    clear:both; 
+}
+
+#contact {
+height: 280px;
+overflow-y: scroll;
+}
+
+#contact>* {
+    cursor: pointer;
+}
+
+#enterLogin {
+
+}

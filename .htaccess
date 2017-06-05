@@ -1,0 +1,19 @@
+RewriteEngine On
+
+# This is the base directory of the site.
+# RewriteBase /
+
+#All pages will rewrite to this url
+#RewriteRule ^$ /index.php
+
+# No rewriting will be done here if the file exists
+RewriteCond %REQUEST_FILENAME !-f
+RewriteCond %{REQUEST_URI} !^.*\.(jpg|css|js|png|jpeg)$ [NC]
+RewriteCond %{REQUEST_URI} !refreshTimeline.php
+RewriteCond %{REQUEST_URI} !discution.php
+RewriteCond %{REQUEST_URI} !insertMsg.php
+RewriteCond %{REQUEST_URI} !searchContact.php
+RewriteCond %{REQUEST_URI} !deletMsg.php
+
+#All pages will rewrite to this url
+RewriteRule ^(.*)$ index.php

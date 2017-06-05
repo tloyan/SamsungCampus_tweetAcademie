@@ -1,0 +1,31 @@
+#user-banniere{
+	width: 1000%;
+	height: 175px;
+	background-color: rgb(29, 161, 242);
+}
+
+#user-avatar{
+	width: 210px;
+	height: 210px;
+	background-color: rgb(29, 161, 242);
+	margin-left: 145px;
+	margin-top: 55px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+}
+
+#user-name{
+	color: rgb(41, 47, 51);
+	margin-top: 120px;
+	margin-left: 150px;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+#user-login{
+	color: rgb(136, 153, 166);
+	margin-left: 150px;
+	font-size: 14px;
+	font-weight: 400;
+}

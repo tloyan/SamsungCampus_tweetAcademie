@@ -1,0 +1,1 @@
+<p class="warning">Tweet deleted</p>

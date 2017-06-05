@@ -1,0 +1,173 @@
+body{
+	background-color: #F5F8FA;
+}
+
+::-moz-placeholder {
+   color: blue;  
+}
+
+h3{
+	text-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 50px;
+}
+
+.tweet{
+	background-color: white;
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 2px;
+	margin-bottom: 5px;
+	border: 1px solid #E1E8ED;
+}
+
+.tweet-head{
+	border-bottom: 0.5px solid #D3CFE8;
+}
+
+.tweet-author{
+	color: black;
+	float: left;
+}
+
+.tweet-timestamp{
+	float: right;
+	color: #D3CFE8;
+}
+
+.tweet-contenu{
+	color: black;
+	float: left;
+}
+
+.tweet-image{
+	max-height: 550px;
+	max-width: 550px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#newTweet{
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: #B8E9FF;
+}
+
+.tweet-delete{
+	margin-left: 20px;
+	display: block;
+}
+
+#newTweet-content{
+	width: 90%;
+	height: 40px;
+	float: right;
+	background-color: white;
+	border: 1px solid #B8E9FF;
+	border-radius: 5px;
+	vertical-align: top;
+	line-height: 20px;
+	overflow-wrap: break-word;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	min-height: 40px;
+	max-height: 80px;
+	min-width: 90%;
+	max-width: 90%;
+	font-family: Arial, sans-serif;
+	word-wrap: break-word;
+}
+
+#newTweet-content:focus{
+	height: 80px;
+}
+
+#newTweet-submit{
+	background-image: url('../images/tweet_button.png');
+	background-position: center;
+	width: 100px;
+	height: 40px;
+	border: 0;
+	border-radius: 8px;
+	float: right;
+}
+
+.hashtags{
+	color: #55ACEE;
+}
+
+.tweet-delete{
+	float: right;
+	/*margin: 5px;*/
+}
+
+#comment-form{
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#comment-form input{
+	width: 600px;
+}
+
+.comment{
+	background-color: #F5F8FA;
+	border-radius: 1px solid #B8E9FF;
+	font-size: 0.7em;
+	width: 70%;
+	float: right;
+	margin: 5px;
+}
+
+.comment-header{
+	border-bottom: 1px solid #B8E9FF;
+	width: 100%;
+	text-align: right;
+}
+
+.comment-body{
+	display: block;
+	width: 100%;
+}
+
+.comment-autor{
+	float: left;
+}
+
+#retweet{
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: #E8F5FD;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#retweet input{
+	width: 100%;
+	background-color: #E8F5FD;
+	border: 0;
+}
+
+#choice{
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#follow-display{
+	float: right;
+}
